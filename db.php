@@ -1,8 +1,13 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "lifeline";
+// $host = "localhost";
+// $user = "root";
+// $pass = "";
+// $dbname = "lifeline";
+
+$host = 'lifelinedb.cb8ms8yg8ue3.ap-southeast-1.rds.amazonaws.com';
+$dbname = 'lifeline'; 
+$user = 'lifelineuser';
+$pass = 'lifeline';
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
